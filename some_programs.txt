@@ -1,0 +1,8 @@
+
+1#valid walk
+def isValidWalk(walk):
+    if walk.count('n')==walk.count('s') and walk.count('e')==walk.count('w'):
+        return True
+    else:
+        return False
+    
